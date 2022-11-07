@@ -84,4 +84,5 @@ def write(settings_path, settings_data, merge=True):
             explicit_start=True,
             indent=2,
             default_flow_style=False,
+            allow_unicode=True,
         )
